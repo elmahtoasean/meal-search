@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+.home-container {
+    text-align: center;
+    background: linear-gradient(120deg, rgb(11, 78, 121), rgb(123, 166, 184));
+    min-height: 100vh;
+    padding: 2rem;
+    color: #f3e9dc;
+    transition: transform 0.3s ease;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    box-shadow: 0 4px 15px rgba(123, 166, 184, 0.3);
+    border-radius: 10px;
+}
+
+
+h1,
+h2 {
+    color: #f3e9dc;
+    font-family: 'Lora', serif;
+}
+
+
+.meal-search-input {
+    color: #f3e9dc;
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 3px solid rgb(247, 244, 241);
+    border-radius: 1px;
+    outline: none;
+    background-color: transparent;
+}
+
+.meal-search-input::placeholder {
+    color: #f3e9dc;
+    font-family: 'Lora', serif
+}
+
+.meal-search-input:focus {
+    border-bottom: 3px solid rgb(205, 225, 236);
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    justify-items: center;
+    transition: transform 0.3s ease;
+}
+
